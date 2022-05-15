@@ -1,0 +1,16 @@
+{
+  "stock": [
+    {
+      "itemName": "sheet",
+      "price": "1500",
+      "totQty": "800",
+      "issuedQty": "200"
+    },
+    {
+      "itemName": "cement",
+      "price": "1800",
+      "totQty": "600",
+      "issuedQty": "200"
+    }
+  ]
+}
