@@ -29,4 +29,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: $ {{ secrets.CTES_USERNAME}}/ctse-2022-test:${{ github.sha}}
+        tags: $ {{ secrets.CTES_USERNAME}}/my-first-image:${{ github.sha}}
