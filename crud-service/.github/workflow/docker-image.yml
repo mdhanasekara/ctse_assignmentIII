@@ -29,4 +29,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: $ {{ secrets.CTES_USERNAME}}/my-first-image:v1
+        tags: $ {{ secrets.CTES_USERNAME}}/my-first-image:${{github.sha}}
