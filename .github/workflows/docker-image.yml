@@ -20,7 +20,7 @@ jobs:
       uses : docker/login-action@v1
       with:
         username: ${{ secrets.CTES_USERNAME}}
-        password: "methsen1#@!"
+        password: "surenidh123"
     # - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:${{steps.vars.outputs.sha_short}}
     - name: Build and push
